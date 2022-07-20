@@ -1,0 +1,22 @@
+[Unit]
+Description=Gavecoin's distributed currency daemon
+After=network.target
+
+[Service]
+User=gavecoincore
+Group=gavecoincore
+
+Type=forking
+PIDFile=/var/lib/gavecoind/gavecoind.pid
+ExecStart=/usr/bin/gavecoind -daemon -pid=/var/lib/gavecoind/gavecoind.pid \
+-conf=/etc/gavecoincore/gavecoin.conf -datadir=/var/lib/gavecoind -disablewallet
+
+Restart=always
+PrivateTmp=true
+TimeoutStopSec=60s
+TimeoutStartSec=2s
+StartLimitInterval=120s
+StartLimitBurst=5
+
+[Install]
+WantedBy=multi-user.target

@@ -1,0 +1,25 @@
+<!DOCTYPE RCC><RCC version="1.0">
+    <qresource prefix="/translations">
+        <file alias="ar">locale/gavecoin_ar.qm</file>
+        <file alias="bg">locale/gavecoin_bg.qm</file>
+        <file alias="de">locale/gavecoin_de.qm</file>
+        <file alias="en">locale/gavecoin_en.qm</file>
+        <file alias="es">locale/gavecoin_es.qm</file>
+        <file alias="fi">locale/gavecoin_fi.qm</file>
+        <file alias="fr">locale/gavecoin_fr.qm</file>
+        <file alias="it">locale/gavecoin_it.qm</file>
+        <file alias="ja">locale/gavecoin_ja.qm</file>
+        <file alias="ko">locale/gavecoin_ko.qm</file>
+        <file alias="nl">locale/gavecoin_nl.qm</file>
+        <file alias="pl">locale/gavecoin_pl.qm</file>
+        <file alias="pt">locale/gavecoin_pt.qm</file>
+        <file alias="ro">locale/gavecoin_ro.qm</file>
+        <file alias="ru">locale/gavecoin_ru.qm</file>
+        <file alias="sk">locale/gavecoin_sk.qm</file>
+        <file alias="th">locale/gavecoin_th.qm</file>
+        <file alias="tr">locale/gavecoin_tr.qm</file>
+        <file alias="vi">locale/gavecoin_vi.qm</file>
+        <file alias="zh_CN">locale/gavecoin_zh_CN.qm</file>
+        <file alias="zh_TW">locale/gavecoin_zh_TW.qm</file>
+    </qresource>
+</RCC>

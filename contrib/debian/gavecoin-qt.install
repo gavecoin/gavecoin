@@ -1,0 +1,6 @@
+usr/local/bin/gavecoin-qt usr/bin
+share/pixmaps/gavecoin32.xpm usr/share/pixmaps
+share/pixmaps/gavecoin16.xpm usr/share/pixmaps
+share/pixmaps/gavecoin128.png usr/share/pixmaps
+debian/gavecoin-qt.desktop usr/share/applications
+debian/gavecoin-qt.protocol usr/share/kde4/services/
